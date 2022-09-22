@@ -1,0 +1,152 @@
+/*Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*Estilos globales*/
+body {
+    background-image: linear-gradient(#74473c, #f5eeec);
+}
+
+#header {
+    background: black;
+    padding: 25px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.container-fluid a {      
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;  
+}
+
+.container-fluid {
+    display: inline;
+    text-align: center;
+}
+
+
+#header .logo img {
+      width: 300px;
+      height: 300px; 
+      margin-bottom: 10px;  
+    }
+a {
+    background-color: black;
+    transition: background-color .1s;
+    }
+
+a:hover{
+    background-color: #AB9089;
+    }
+
+#footer .redes img {
+    width: 25px;
+    height: auto;
+    
+    }
+
+ /* Página inicio*/
+main h1 {
+    font-size: 40px;
+    text-align: center;
+}
+main p {
+    font-size: 25px;
+    font-family: comic sans-serif;
+    text-align: justify;
+    }
+
+   .estudio3 {
+      padding: 10px; 
+      margin: 10px; 
+      float: left; 
+      width: auto;
+    }
+
+    .estudio {
+       padding: 10px; 
+       margin: 10px; 
+       float: center; 
+       width: auto;
+    }
+
+   
+    .subtitulos {
+       font-size: 40px;
+       text-align: left;
+    }
+
+
+ /*Página quienes somos*/
+  section p {
+  font-size: 25px;
+  font-family: comic sans-serif; 
+  height: 350px;
+  }  
+
+
+ /*Página fotos*/
+.tatuaje1 {
+    padding: 20px; 
+    margin: 20px; 
+    width: 200px;
+    border: 5px solid black; 
+   }
+.tatuaje6 {
+    padding: 20px; 
+    margin: 20px; 
+    width: 200px;
+    border: 5px solid black; 
+  }
+.tatuaje3 {
+    padding: 20px; 
+    margin: 20px;
+    width: 200px; 
+    border: 5px solid black; 
+   }
+.tatuaje4 {
+    padding: 20px; 
+    margin: 20px;
+    width: 200px; 
+    border: 5px solid black; 
+   }
+.tatuaje7 {
+    padding: 20px; 
+    margin: 20px; 
+    width: 200px;
+    border: 5px solid black;     
+   }
+
+ /*Página Staff*/
+.flex-container {    
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content:  space-around;
+    text-align: center;
+    }
+
+.flex-item {
+    border:5px solid black;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+  }       
+
+.flex-item img {
+    width: 250px;
+    height: auto
+   }
+
+
+ /*Página contacto*/
+form {
+    font-size: 20px;
+    font-family: comic sans-serif; 
+   }
+
